@@ -4,7 +4,7 @@
 
 A edição selecionada de *Eu Estou Aqui* é a **primeira edição digital integral de 112 páginas**, fornecida novamente pelo responsável pela preservação editorial em 22/11/2026.
 
-- [Livro completo](../livro/Andrew - Eu Estou Aqui - 1ª edição.pdf)
+- [Livro completo](../livro/Andrew%20-%20Eu%20Estou%20Aqui%20-%201%C2%AA%20edi%C3%A7%C3%A3o.pdf)
 - Tamanho: **2.958.319 bytes**
 - SHA-256: `ab897b887104a1596fc4378b86dccc28e0a6bde540ea7a34766b314924500811`
 - Data impressa no volume: **24/11/2025**
