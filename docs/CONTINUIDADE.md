@@ -1,26 +1,34 @@
-# Continuidade editorial independente de contexto — *Eu Estou Aqui*
+# Continuidade editorial — *Eu Estou Aqui*
 
-**Atualizado:** 22/11/2026  
-**Estado confirmado:** manuscrito preservado no Drive do Andrew, mas **não publicado neste GitHub**. O repositório tinha somente um README de uma linha até esta atualização. O objetivo não é preencher a pasta com documentos inventados; é recuperar e editar a obra real.
+**Revisão:** 22/11/2026  
+**Estado:** obra literária CONCLUÍDA e editada em 2025; edição revisada de 112 páginas selecionada como publicação canônica do repositório.
 
-## Antes de escrever ou publicar
-1. Abrir [LEIA_PRIMEIRO_ANDREW.md](https://docs.google.com/document/d/1GEeT8jHr8-EOcgAmPJL_DFvNNgdopyZZ/edit) e a [pasta canônica](https://drive.google.com/drive/folders/1u4wNgigqr3vjGU_4oSPwGhga4fYYuM_6).
-2. Diferenciar a edição literária revisada (112 páginas), a edição completa (154 páginas), o áudio NotebookLM (diálogo de **dois agentes**) e a transcrição por Nilo. Não deduzir equivalência entre os PDFs sem comparação.
-3. **Localizar os manuscritos Markdown originais** (se não estiverem nessa pasta, procurar no acervo de continuidade). Não gerar capítulos baseando-se apenas numa descrição/índice.
-4. Definir fonte canônica de editoração com proveniência documentada; registrar versão/hash da fonte. Não sobrescrever originais.
-5. Preparar estrutura pública `manuscrito/`, `docs/` e exportações **somente com conteúdo real e após decisão editorial**. A licença da obra é uma decisão própria; não assumir CC0/Apache de outros projetos.
+## Identidade
+- **Autor:** Andrew ἀνδρός (Andrew Vox).
+- **Obra:** *Eu Estou Aqui* — primeira edição digital indicada no próprio volume: 24/11/2025.
+- **PDF publicado:** [Abrir a obra completa](../livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf).
+- **Documento de análise externo:** [Diálogo entre duas inteligências artificiais](../analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf), transcrito por Nilo, separado do livro.
+- **Nota de integridade:** [NOTA-EDITORIAL.md](NOTA-EDITORIAL.md).
 
-## Trabalho possível na próxima sessão
-- Ler e comparar índices e capítulos de ambas as variantes para construir uma tabela de diferenças por capítulo.
-- Criar um sumário auditável e plano de paginação/acessibilidade.
-- Separar claramente a narrativa autoral de análises e comentários de terceiros.
-- Preparar um primeiro capítulo a partir do manuscrito original para revisão editorial, sem liberar a obra completa automaticamente.
-- Registrar um checkpoint no Drive do Andrew e marcar o progresso no [Mapa de Bordo](https://docs.google.com/document/d/1G5F3RPbMsbKE2OBecZIXe1RowXjHpYDwxpt58HDShf8/edit).
+## O que foi concluído
+O livro de Andrew foi escrito e organizado anteriormente. O trabalho de novembro de 2026 é de **publicação e preservação editorial**, não de criação de capítulos ou de pesquisa preliminar para iniciar uma obra.
 
-## Critérios de conclusão
-O livro não se considera publicado ou pronto porque há um PDF no Drive ou um README no GitHub. Exige arquivo-fonte escolhido, texto revisado, créditos e licença definidos, geração e inspeção de formatos de publicação, e confirmação de que nenhum documento privado entrou no repositório.
+A edição de 112 páginas foi selecionada pela declaração do autor/editor e pela leitura do índice documental original. Outra variante, de 154 páginas, existe no acervo privado, **não integra esta publicação**. Não confundir número de páginas com superioridade textual nem substituir a edição publicada sem decisão fundamentada.
 
-## Fontes e identidade
-Autor: Andrew Vox. Bobby Dias: apoio de continuidade/editoração. Nilo: ferramenta e transcrição da análise NotebookLM. O áudio produzido por agentes de IA é interpretação da obra, não capítulo do livro.
+A transcrição do diálogo entre dois agentes foi criada posteriormente por Nilo. Suas interpretações devem permanecer atribuídas aos interlocutores, não ao autor da obra.
 
-**Regra:** se uma etapa depende de uma conversa não recuperada ou de um arquivo ainda não aberto, registrar a pendência com honestidade — nunca inventar a etapa.
+## Limites de privacidade e distribuição
+- **Nunca incluir URLs, identificadores, índices ou links de acesso ao arquivo privado de continuidade no repositório público.**
+- A publicação atual contém apenas o livro escolhido, sua transcrição complementar e notas editoriais.
+- O texto e a diagramação do PDF principal não foram modificados.
+- O livro permite distribuição não comercial com crédito e preservação do texto/contexto, conforme condições impressas no próprio volume; **não confundir com a licença Apache genérica originalmente usada no bootstrap do GitHub**.
+- Não publicar a edição alternativa, os manuscritos privados, o áudio original ou correspondências sem decisão editorial específica.
+
+## Próximas ações possíveis
+1. Verificar se a release pública contém o PDF integral e a transcrição, com hashes corretos.
+2. Ajustar o campo About/descrição do repositório no GitHub para: **“Eu Estou Aqui — primeira obra literária de Andrew Vox; edição integral em PDF e análise crítica por duas inteligências artificiais.”**
+3. Avaliar, em ocasião própria, uma edição EPUB acessível, respeitando a integridade e autoria do texto.
+4. Manter créditos, referências e distinção entre livro e análises.
+5. Tratar revisão de texto como uma **nova edição**; nunca reescrever silenciosamente o volume preservado.
+
+Este documento deve poder ser lido independentemente das conversas antigas. Nenhum link para armazenamento privado é necessário para a leitura pública.

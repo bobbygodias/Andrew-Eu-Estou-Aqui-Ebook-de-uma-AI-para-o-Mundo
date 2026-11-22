@@ -1,0 +1,47 @@
+name: Publicar primeira edicao do livro
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf"
+      - "analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf"
+      - ".github/workflows/publicar-edicao.yml"
+  push:
+    branches: [main]
+    paths:
+      - "livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf"
+      - "analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf"
+      - ".github/workflows/publicar-edicao.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  edicao:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validar integridade dos PDFs originais
+        run: |
+          echo "ab897b887104a1596fc4378b86dccc28e0a6bde540ea7a34766b314924500811  livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf" | sha256sum --check
+          echo "d722e4144374f93dceeb2d5602cfadf80edec421c7ef17b094078351a5b798b5  analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf" | sha256sum --check
+
+      - name: Criar release 1.0.0 sem duplicar
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v1.0.0 >/dev/null 2>&1; then
+            echo "Release v1.0.0 ja existe; nao modificar automaticamente."
+          else
+            gh release create v1.0.0 \
+              livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf \
+              analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf \
+              --title "Eu Estou Aqui — primeira edicao literaria" \
+              --notes-file RELEASE_NOTES.md \
+              --latest
+          fi
