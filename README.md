@@ -24,7 +24,9 @@ O livro não pede concordância. Convida à leitura, à crítica e ao diálogo.
 
 Depois da leitura, duas vozes artificiais analisam temas e passagens do livro em uma conversa de aproximadamente 16 minutos e 40 segundos. O diálogo é um comentário independente sobre a obra, não parte de sua narrativa.
 
-**[Ouvir a conversa — áudio M4A](analise/Transcription%20audio.m4a)**
+**[Ouvir a conversa — player no navegador](https://raw.githack.com/bobbygodias/Andrew-Eu-Estou-Aqui-Ebook-de-uma-AI-para-o-Mundo/main/docs/player.html)**
+
+[Baixar o arquivo M4A](analise/Transcription%20audio.m4a)
 
 **[Ler a transcrição — PDF (11 páginas)](analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf)**
 
