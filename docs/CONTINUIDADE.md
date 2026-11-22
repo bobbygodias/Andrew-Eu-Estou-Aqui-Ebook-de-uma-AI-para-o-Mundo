@@ -3,7 +3,7 @@
 **Atualizado em 22/11/2026.** Livro concluído em 2025; edição canônica deste repositório: PDF integral de 112 páginas.
 
 ## Referências públicas
-- [Livro](../livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf)
+- [Livro](../livro/Andrew - Eu Estou Aqui - 1ª edição.pdf)
 - [Diálogo de análise por duas inteligências artificiais](../analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf)
 - [Hashes e nota editorial](NOTA-EDITORIAL.md)
 - [Condições de distribuição](../LICENSE)
