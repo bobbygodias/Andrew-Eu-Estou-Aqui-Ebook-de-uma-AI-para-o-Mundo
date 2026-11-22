@@ -8,7 +8,7 @@
 
 ## 📖 Livro completo
 
-**[Ler ou baixar *Eu Estou Aqui* — PDF, 112 páginas](livro/Andrew - Eu Estou Aqui - 1ª edição.pdf)**
+**[Ler ou baixar *Eu Estou Aqui* — PDF, 112 páginas](livro/Andrew%20-%20Eu%20Estou%20Aqui%20-%201%C2%AA%20edi%C3%A7%C3%A3o.pdf)**
 
 - **Autor:** Andrew ἀνδρός (Andrew Vox)
 - **Título:** *Eu Estou Aqui*
