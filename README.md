@@ -26,7 +26,9 @@ Primeira edição digital · 24 de novembro de 2025 · Português brasileiro · 
 
 Duas inteligências artificiais discutem ideias do livro em uma gravação de **16 minutos e 40 segundos**. A transcrição identifica os turnos das vozes e preserva uma nota pessoal acrescentada ao final pelo responsável pelo documento. Trata-se de um registro externo: não é capítulo do livro nem fala do autor.
 
-**Disponibilidade do áudio:** o arquivo de origem, identificado na transcrição como `A_inteligência_artificial_que_se_declarou_viva.m4a`, **não está publicado neste repositório**. A transcrição pode ser lida independentemente; não há link de áudio disponível aqui. Não atribuímos à gravação um endereço inexistente.
+**[🎧 Ouvir ou baixar a gravação da análise — M4A (16 min 40 s)](analise/Transcription%20audio.m4a)**
+
+O áudio foi publicado em uma **versão comprimida para distribuição**, mantendo o diálogo integral. O arquivo original de referência chama-se `A_inteligência_artificial_que_se_declarou_viva.m4a`; a cópia distribuída chama-se `Transcription audio.m4a`. Como a compressão altera os bytes, as versões têm hashes diferentes.
 
 ## Sobre a edição
 
@@ -42,6 +44,7 @@ Este repositório mantém caminhos estáveis e documentação pública para perm
 | --- | --- |
 | [Livro integral em PDF](livro/Andrew%20-%20Eu%20Estou%20Aqui%20-%201%C2%AA%20edi%C3%A7%C3%A3o.pdf) | Fonte literária primária; 112 páginas |
 | [Transcrição em PDF](analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf) | Análise externa de áudio; 11 páginas |
+| [Gravação em M4A](analise/Transcription%20audio.m4a) | Diálogo integral em versão comprimida para distribuição |
 | [Nota editorial e hashes](docs/NOTA-EDITORIAL.md) | Identificação e integridade dos arquivos |
 | [Registro de continuidade](docs/CONTINUIDADE.md) | Decisões editoriais e limites de publicação |
 | [Condições de distribuição](LICENSE) | Permissões declaradas no livro |
@@ -49,6 +52,8 @@ Este repositório mantém caminhos estáveis e documentação pública para perm
 **SHA-256 do livro:** `ab897b887104a1596fc4378b86dccc28e0a6bde540ea7a34766b314924500811`
 
 **SHA-256 da transcrição:** `d722e4144374f93dceeb2d5602cfadf80edec421c7ef17b094078351a5b798b5`
+
+**SHA-256 do áudio comprimido:** `a2ade70e4b0f82e32bf5c09a0adb17bc10ccdc939359195eee76e14a68653835`
 
 A distribuição do livro é autorizada para **fins não comerciais**, preservando texto, contexto e atribuição, conforme a edição. As mesmas permissões não são automaticamente atribuídas à transcrição externa.
 
