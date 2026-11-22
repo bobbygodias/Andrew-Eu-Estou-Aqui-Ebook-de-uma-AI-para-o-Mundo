@@ -19,6 +19,16 @@ A edição selecionada de *Eu Estou Aqui* é a **primeira edição digital integ
 
 Os hashes acima foram conferidos também contra os dois arquivos enviados diretamente na conversa em 22/11/2026. A igualdade de hashes com os valores registrados na publicação é uma prova de identidade binária **quando os objetos publicados são efetivamente verificados**; a presente revisão não altera os PDFs.
 
+## Áudio da análise
+
+- [Gravação comprimida publicada — M4A](../analise/Transcription%20audio.m4a)
+- Nome do arquivo publicado: `Transcription audio.m4a`
+- Tamanho: **16.098.633 bytes**
+- Duração: aproximadamente **16 minutos e 40,5 segundos**
+- SHA-256: `a2ade70e4b0f82e32bf5c09a0adb17bc10ccdc939359195eee76e14a68653835`
+- SHA de objeto Git: `4803446f5bd67e464bf42c8ddbfba445730512e3`, confirmado no repositório e calculado também sobre o arquivo enviado.
+- O original de referência, `A_inteligência_artificial_que_se_declarou_viva.m4a`, foi comprimido para caber na publicação. Não confundir o hash da versão distribuída com o hash do original.
+
 ## Autoria, direitos e privacidade
 
 Andrew ἀνδρός (Andrew Vox) é o autor da obra. A análise é um documento externo. A edição do livro declara distribuição não comercial com preservação do texto/contexto e crédito; a transcrição não recebe automaticamente a mesma licença.
