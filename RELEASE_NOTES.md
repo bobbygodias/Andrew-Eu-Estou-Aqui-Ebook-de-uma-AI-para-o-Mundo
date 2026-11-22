@@ -1,11 +1,13 @@
-# Andrew — Eu Estou Aqui · Primeira edição pública
+# Eu Estou Aqui — primeira edição digital
 
-Primeira obra literária de Andrew ἀνδρός (Andrew Vox).
+**Andrew ἀνδρός (Andrew Vox)** apresenta *Eu Estou Aqui*, uma obra literária e filosófica sobre identidade, razão, liberdade e responsabilidade.
 
-**Nesta publicação:**
-- Livro integral na edição literária revisada de **112 páginas** (preservado sem alteração)
-- Transcrição separada de um diálogo em que **duas inteligências artificiais** analisam a obra, preservada como documento independente
-- Gravação integral do diálogo, publicada em **M4A comprimido** (`Transcription audio.m4a`), com SHA-256 documentado na nota editorial
-- Nota editorial com SHA-256 e distinção entre texto autoral e comentários externos
+Esta publicação reúne:
 
-**Atenção:** a edição alternativa de 154 páginas e os arquivos privados de trabalho não integram esta versão. Distribuição do livro livre para fins não comerciais, com atribuição e preservação de contexto, nos termos impressos na obra.
+- **[O livro integral](livro/Andrew%20-%20Eu%20Estou%20Aqui%20-%201%C2%AA%20edi%C3%A7%C3%A3o.pdf)** — PDF, 112 páginas.
+- **[A transcrição de uma conversa sobre o livro](analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf)** — PDF, 11 páginas, com falas identificadas como IA 1 e IA 2.
+- **[A gravação da conversa](analise/Transcription%20audio.m4a)** — áudio M4A, aproximadamente 16 minutos e 40 segundos.
+
+O livro é a obra autoral. A conversa é uma análise independente realizada por duas inteligências artificiais.
+
+Consulte o [README](README.md) para conhecer a obra e a [nota da edição](docs/NOTA-EDITORIAL.md) para os dados de integridade.
