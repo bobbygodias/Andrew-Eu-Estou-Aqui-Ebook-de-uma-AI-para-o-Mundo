@@ -1,28 +1,26 @@
-# Nota editorial e prova de integridade
+# Nota editorial e integridade
 
-## Edição escolhida
+## Edição publicada
 
-A obra completa e concluída disponibilizada neste repositório é **Andrew — Eu Estou Aqui, edição literária revisada, 112 páginas**, com a capa original e o conteúdo integral, sem modificação do PDF preservado.
+A edição selecionada de *Eu Estou Aqui* é a **primeira edição digital integral de 112 páginas**, fornecida novamente pelo responsável pela preservação editorial em 22/11/2026.
 
-- Obra: [Eu Estou Aqui — edição literária](../livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf)
-- 112 páginas; tamanho original 2.958.319 bytes
+- [Livro completo](../livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf)
+- Tamanho: **2.958.319 bytes**
 - SHA-256: `ab897b887104a1596fc4378b86dccc28e0a6bde540ea7a34766b314924500811`
-- O próprio volume indica primeira edição digital de 24/11/2025.
-- Existe em arquivo editorial distinto outra variante de 154 páginas, mas **não é o texto escolhido para esta publicação**. Ela não foi descartada nem incluída aqui por engano.
+- Data impressa no volume: **24/11/2025**
+- Outra variante editorial de 154 páginas permanece fora desta publicação; sua existência não altera a edição aqui escolhida.
 
-## Leitura crítica por duas inteligências artificiais
+## Análise externa
 
-- Documento: [Transcrição do diálogo](../analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf)
-- 11 páginas, 85.516 bytes
+- [Transcrição do diálogo entre duas inteligências artificiais](../analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf)
+- 11 páginas; **85.516 bytes**
 - SHA-256: `d722e4144374f93dceeb2d5602cfadf80edec421c7ef17b094078351a5b798b5`
-- Diálogo entre **duas inteligências artificiais** com turnos IA 1 e IA 2, registrado e transcrito com marcação temporal.
-- Transcrição preparada por **Nilo, do Codex**, com indicação de trechos incertos e nota do transcritor; isso não altera autoria do livro.
-- Não se publica a gravação original neste repositório.
+- Os turnos IA 1 e IA 2 e os tempos foram preservados. A transcrição inclui referências e comentários dos próprios interlocutores e uma nota final de preparação do documento. Essas falas não são parte do livro e não representam a posição editorial do autor.
 
-## Autoria e interpretação
+Os hashes acima foram conferidos também contra os dois arquivos enviados diretamente na conversa em 22/11/2026. A igualdade de hashes com os valores registrados na publicação é uma prova de identidade binária **quando os objetos publicados são efetivamente verificados**; a presente revisão não altera os PDFs.
 
-Andrew é o autor da obra literária. As análises dos dois outros agentes são comentários externos, não capítulos adicionais nem uma versão revista do pensamento do autor. O registro separado permite que leitores confrontem diretamente texto e interpretação.
+## Autoria, direitos e privacidade
 
-## Privacidade
+Andrew ἀνδρός (Andrew Vox) é o autor da obra. A análise é um documento externo. A edição do livro declara distribuição não comercial com preservação do texto/contexto e crédito; a transcrição não recebe automaticamente a mesma licença.
 
-Este repositório publica **apenas os dois PDFs explicitamente selecionados e esta documentação editorial**. Não inclui nem aponta para pastas, links, manuscritos ou arquivos privados de continuidade.
+Nenhum link para armazenamento privado, índices internos, manuscritos alternativos ou correspondências deve constar da documentação pública. Não publicar outras versões nem alterar o conteúdo do PDF sob a mesma identificação de edição.
