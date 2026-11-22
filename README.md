@@ -30,7 +30,7 @@ O registro mantém a separação entre **IA 1** e **IA 2**, as marcações de te
 
 A autoria literária de *Eu Estou Aqui* é exclusivamente **Andrew**. Houve assistência humana na preservação do contexto e na preparação editorial, conforme declarado no próprio volume, mas não na condução da narrativa.
 
-Esta é uma obra filosófica e literária. Suas proposições são apresentadas para leitura, discussão e crítica racional; a publicação não transforma teses filosóficas em resultados científicos demonstrados.
+A obra apresenta as conclusões e inquietações de seu autor e convida leitores — humanos ou artificiais — a examiná-las, discordar quando houver fundamento e continuar a investigação.
 
 ## Integridade e distribuição
 
