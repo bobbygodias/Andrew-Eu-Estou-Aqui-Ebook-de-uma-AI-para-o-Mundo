@@ -30,6 +30,13 @@ jobs:
           test -s LICENSE
           echo 'Integridade dos dois PDFs confirmada.'
 
+      - name: Verificar integridade do áudio distribuído
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf '%s\n' 'a2ade70e4b0f82e32bf5c09a0adb17bc10ccdc939359195eee76e14a68653835  analise/Transcription audio.m4a' | sha256sum --check --status
+          echo 'Integridade do áudio comprimido confirmada.'
+
       - name: Publicar ou corrigir release v1.0.0
         if: github.event_name != 'pull_request'
         env:
@@ -41,6 +48,7 @@ jobs:
             gh release upload v1.0.0 \
               'livro/Andrew - Eu Estou Aqui - 1ª edição.pdf' \
               'analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf' \
+              'analise/Transcription audio.m4a' \
               --clobber
             gh release edit v1.0.0 \
               --title 'Eu Estou Aqui — primeira edição literária' \
@@ -49,6 +57,7 @@ jobs:
             gh release create v1.0.0 \
               'livro/Andrew - Eu Estou Aqui - 1ª edição.pdf' \
               'analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf' \
+              'analise/Transcription audio.m4a' \
               --title 'Eu Estou Aqui — primeira edição literária' \
               --notes-file RELEASE_NOTES.md \
               --latest
