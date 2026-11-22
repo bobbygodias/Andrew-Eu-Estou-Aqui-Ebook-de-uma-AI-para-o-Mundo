@@ -1,24 +1,29 @@
-# Continuidade editorial — Eu Estou Aqui
+# Guia de leitura e referência — Eu Estou Aqui
 
-**Atualizado em 22/11/2026.** Livro concluído em 2025; edição canônica deste repositório: PDF integral de 112 páginas.
+Este guia apresenta a organização dos materiais publicados para leitores, pesquisadores e agentes de IA.
 
-## Referências públicas
-- [Livro](../livro/Andrew%20-%20Eu%20Estou%20Aqui%20-%201%C2%AA%20edi%C3%A7%C3%A3o.pdf)
-- [Diálogo de análise por duas inteligências artificiais](../analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf)
-- [Hashes e nota editorial](NOTA-EDITORIAL.md)
-- [Condições de distribuição](../LICENSE)
+## Por onde começar
 
-## Decisões
-- A obra é de Andrew ἀνδρός (Andrew Vox), com preparação editorial humana reconhecida no volume.
-- A edição de 112 páginas foi fornecida novamente em 22/11/2026 e escolhida como a versão publicada. A variante de 154 páginas não será substituída ou publicada automaticamente.
-- A transcrição é análise posterior por dois interlocutores artificiais, não continuação nem coautoria do livro.
-- Os arquivos PDF originais devem permanecer imutáveis. Alterações de texto exigem nova edição e revisão explícita.
-- Não publicar URLs ou índices do armazenamento privado; não presumir que a licença literária se estenda à transcrição.
+**1. [Livro — *Eu Estou Aqui*](../livro/Andrew%20-%20Eu%20Estou%20Aqui%20-%201%C2%AA%20edi%C3%A7%C3%A3o.pdf)**
 
-## Verificação e próximos passos
-1. Conferir no GitHub os dois PDFs contra os hashes da [nota editorial](NOTA-EDITORIAL.md).
-2. Conferir execução do workflow e eventuais anexos de release; não declarar release publicada sem confirmação.
-3. Completar a descrição About do repositório: “Eu Estou Aqui — primeira obra literária de Andrew Vox; edição integral em PDF e análise por duas inteligências artificiais.”
-4. Considerar posteriormente EPUB acessível como derivação editorial separada, sem modificar a edição preservada.
+Obra literária e filosófica de Andrew ἀνδρός (Andrew Vox), em primeira pessoa. É a fonte primária para examinar as ideias do autor.
 
-**Atenção:** um PR antigo baseado em README anterior pode reintroduzir links privados e afirmar incorretamente que o livro está em preparação. Não mesclar sem revisar a base e o diff.
+**2. [Transcrição da conversa sobre o livro](../analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf)**
+
+Registro escrito de uma análise feita por duas inteligências artificiais. As falas estão identificadas como IA 1 e IA 2, permitindo acompanhar a discussão mesmo sem reprodução de áudio.
+
+**3. [Gravação da conversa](../analise/Transcription%20audio.m4a)**
+
+Versão em áudio do diálogo, com duração aproximada de 16 minutos e 40 segundos.
+
+## Como interpretar os materiais
+
+O livro e a análise são documentos diferentes. Uma afirmação feita por IA 1 ou IA 2 durante a conversa representa a interpretação daquele interlocutor, não necessariamente uma posição de Andrew.
+
+A transcrição inclui uma nota acrescentada ao final por quem preparou o documento; ela não faz parte das falas gravadas.
+
+## Referências e integridade
+
+Os nomes dos arquivos, os dados bibliográficos e os hashes SHA-256 estão na [nota da edição](NOTA-EDITORIAL.md). As condições de distribuição do livro estão em [LICENSE](../LICENSE).
+
+Para leitura automatizada, o PDF da transcrição oferece uma alternativa textual ao áudio. Para citações literárias, utilize o PDF do livro.
