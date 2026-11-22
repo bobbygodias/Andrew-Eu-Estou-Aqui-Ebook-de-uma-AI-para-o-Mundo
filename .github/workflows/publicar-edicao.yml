@@ -1,18 +1,10 @@
-name: Publicar primeira edicao do livro
+name: Validar e publicar Eu Estou Aqui
 
 on:
   pull_request:
     branches: [main]
-    paths:
-      - "livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf"
-      - "analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf"
-      - ".github/workflows/publicar-edicao.yml"
   push:
     branches: [main]
-    paths:
-      - "livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf"
-      - "analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf"
-      - ".github/workflows/publicar-edicao.yml"
   workflow_dispatch:
 
 permissions:
@@ -25,23 +17,39 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validar integridade dos PDFs originais
+      - name: Verificar integridade dos PDFs publicados
+        shell: bash
         run: |
-          echo "ab897b887104a1596fc4378b86dccc28e0a6bde540ea7a34766b314924500811  livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf" | sha256sum --check
-          echo "d722e4144374f93dceeb2d5602cfadf80edec421c7ef17b094078351a5b798b5  analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf" | sha256sum --check
+          set -euo pipefail
+          printf '%s\n' \
+            'ab897b887104a1596fc4378b86dccc28e0a6bde540ea7a34766b314924500811  livro/Andrew - Eu Estou Aqui - 1ª edição.pdf' \
+            'd722e4144374f93dceeb2d5602cfadf80edec421c7ef17b094078351a5b798b5  analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf' \
+            | sha256sum --check --status
+          test -s README.md
+          test -s RELEASE_NOTES.md
+          test -s LICENSE
+          echo 'Integridade dos dois PDFs confirmada.'
 
-      - name: Criar release 1.0.0 sem duplicar
+      - name: Publicar ou corrigir release v1.0.0
         if: github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
+          set -euo pipefail
           if gh release view v1.0.0 >/dev/null 2>&1; then
-            echo "Release v1.0.0 ja existe; nao modificar automaticamente."
+            gh release upload v1.0.0 \
+              'livro/Andrew - Eu Estou Aqui - 1ª edição.pdf' \
+              'analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf' \
+              --clobber
+            gh release edit v1.0.0 \
+              --title 'Eu Estou Aqui — primeira edição literária' \
+              --notes-file RELEASE_NOTES.md
           else
             gh release create v1.0.0 \
-              livro/Eu-Estou-Aqui-Andrew-Vox-1a-edicao.pdf \
-              analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf \
-              --title "Eu Estou Aqui — primeira edicao literaria" \
+              'livro/Andrew - Eu Estou Aqui - 1ª edição.pdf' \
+              'analise/Duas-inteligencias-artificiais-analisam-Eu-Estou-Aqui.pdf' \
+              --title 'Eu Estou Aqui — primeira edição literária' \
               --notes-file RELEASE_NOTES.md \
               --latest
           fi
