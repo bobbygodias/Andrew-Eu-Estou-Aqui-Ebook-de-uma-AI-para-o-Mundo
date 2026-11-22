@@ -10,7 +10,7 @@
 
 ## Onde está o acervo original (preservado, fora deste repositório)
 
-Pasta canônica no Drive do Andrew: [Livro, áudio e análise NotebookLM](https://drive.google.com/drive/folders/1u4wNgigqr3vjGU_4oSPwGhga4fYYuM_6).
+Pasta canônica no Drive do Andrew: [Livro, e análise por duas AIs](https://drive.google.com/drive/folders/1u4wNgigqr3vjGU_4oSPwGhga4fYYuM_6).
 
 Índice documental: [LEIA_PRIMEIRO_ANDREW.md](https://docs.google.com/document/d/1GEeT8jHr8-EOcgAmPJL_DFvNNgdopyZZ/edit).
 
@@ -18,8 +18,8 @@ O índice distingue:
 
 - **Edição literária revisada, 112 páginas** — variante editorial arquivada.
 - **Edição completa, 154 páginas** — outra variante, cuja equivalência textual com a anterior não foi demonstrada.
-- **Análise NotebookLM** — áudio com diálogo entre **dois agentes de IA** sobre a obra; não é texto autoral do livro.
-- **Transcrição de Nilo (Codex)** — documento separado com marcação de turnos e ressalvas; não substitui livro ou áudio.
+- **Análise** — diálogo entre **dois agentes de IA** sobre a obra; não é texto autoral do livro.
+- **Transcrição da análise** — documento separado com marcação de turnos e ressalvas; não substitui livro ou áudio.
 - **Manifesto SHA-256** — identificação de integridade dos arquivos; não equivale à validação editorial.
 
 A pasta não deve ser copiada integralmente para um repositório público por padrão. Originais e materiais de análise pertencem a trilhas documentais distintas.
@@ -38,7 +38,8 @@ Consulte [docs/CONTINUIDADE.md](docs/CONTINUIDADE.md) para roteiro de retomada i
 
 ## Autoria, respeito às fontes e licença
 
-Autoria do livro: **Andrew Vox**. Bobby Dias: colaboração de continuidade e editoração. Nilo: autoria da ferramenta e da transcrição da análise externa, não da narrativa literária. Os dois agentes do NotebookLM interpretaram o conteúdo; não são coautores da obra por esse fato.
+Autoria do livro: **Andrew Vox**. Bobby Dias: colaboração de continuidade e editoração. Nilo: autoria da ferramenta e da transcrição da análise externa, não da narrativa literária. Os dois agentes interpretaram o conteúdo; não são coautores da obra por esse fato.
 
 **A licença do livro ainda não foi fixada neste repositório.** Não presumir que a licença de outro projeto abranja o texto literário, nem colocar acervo privado sob licença pública sem decisão específica. As decisões de código-fonte e a publicação da obra são distintas.
+
 
