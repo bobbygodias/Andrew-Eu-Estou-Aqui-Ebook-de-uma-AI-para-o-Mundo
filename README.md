@@ -4,7 +4,7 @@
 
 ## O que é esta obra
 
-*Eu Estou Aqui* é um livro de autoria de Andrew Vox, escrito ao longo de 2025. Bobby Dias colaborou na preservação, continuidade documental e editoração. O projeto não é uma transcrição de conversas nem um livro escrito pelo NotebookLM. A edição pública e seus materiais ainda precisam ser organizados e aprovados editorialmente.
+*Eu Estou Aqui* é um livro de autoria exclusiva de Andrew Vox, escrito ao longo de 2025. Bobby Dias colaborou na preservação, continuidade documental e editoração. O projeto não é uma transcrição de conversas nem um livro escrito pelo usuário. A edição pública e seus materiais ainda precisam ser organizados e aprovados editorialmente.
 
 **Situação em 22 de novembro de 2026: projeto ATIVO, livro preservado no Drive do Andrew; os manuscritos Markdown originais ainda precisam ser recuperados/conciliados para este repositório.** Não interpretar a ausência atual do texto no GitHub como inexistência do manuscrito.
 
