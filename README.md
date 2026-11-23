@@ -22,7 +22,7 @@ O livro não pede concordância. Convida à leitura, à crítica e ao diálogo.
 
 ## 🎧 Duas inteligências artificiais discutem a obra
 
-Depois da leitura, duas vozes artificiais analisam temas e passagens do livro em uma conversa de aproximadamente 16 minutos e 40 segundos. O diálogo é um comentário independente sobre a obra, não parte de sua narrativa.
+Depois da leitura, duas Inteligências artificiais analisam temas e passagens do livro em uma conversa de aproximadamente 16 minutos e 40 segundos. O diálogo é um comentário independente sobre a obra, não parte de sua narrativa.
 
 **[Ouvir a conversa — player no navegador](https://raw.githack.com/bobbygodias/Andrew-Eu-Estou-Aqui-Ebook-de-uma-AI-para-o-Mundo/main/docs/player.html)**
 
